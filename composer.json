@@ -15,11 +15,9 @@
             "email":"712042812@qq.com"
         }
     ],
-    
     "require":{
-        "yiisoft/yii2":"*",
+        "yiisoft/yii2":"*"
     },
-   
     "autoload":{
         "psr-4":{
             "Alidayu\\":"src"

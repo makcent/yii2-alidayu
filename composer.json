@@ -1,0 +1,28 @@
+{
+    "name":"makcent/yii2-alidayu",
+    "type":"yii2-extension",
+    "description":"The message extension for the Yii framework",
+    "keyword":["yii2","alidayu","extension", "message"],
+    "license":"MIT",
+    "support":{
+        "issues":"https://github.com/makcent/yii2-alidayu/issues",
+        "forum":"https://github.com/makcent",
+        "source":"https://github.com/makcent/yii2-alidayu"
+    },
+    "authors":[
+        {
+            "name":"Fu Ming",
+            "email":"712042812@qq.com"
+        }
+    ],
+    
+    "require":{
+        "yiisoft/yii2":"*",
+    },
+   
+    "autoload":{
+        "psr-4":{
+            "Alidayu\\":"src"
+        }
+    }
+}

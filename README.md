@@ -2,11 +2,13 @@
 在component中加载如下配置：
 -------  
 ```php
-'taobao' => [
-    'class'  =>	'Alidayu\Top',
-    'appkey' =>	'655565216',
-    'secret' =>	'4b8981dfve4114c9d79387aa9'
-];
+'components' => [
+    'taobao' => [
+        'class'  =>	'Alidayu\Top',
+        'appkey' =>	'655565216',
+        'secret' =>	'4b8981dfve4114c9d79387aa9'
+    ],
+]
 ```
 -------
 阿里大鱼短信调用示例

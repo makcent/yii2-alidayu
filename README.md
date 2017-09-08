@@ -9,13 +9,13 @@
 -------
 阿里大鱼短信调用示例
 -------  
-$c = Yii::$app->taobao->TopClient;
-$req = Yii::$app->taobao->AlibabaAliqinFcSmsNumSendRequest;
-$req->setExtend("123456");
-$req->setSmsType("normal");
-$req->setSmsFreeSignName("久居你心");
-$req->setSmsParam("{\"name\":\"1234\"}");
-$req->setRecNum("18888888888");
-$req->setSmsTemplateCode("SMS_909254503");
-$resp = $c->execute($req);
+$c = Yii::$app->taobao->TopClient;<br>
+$req = Yii::$app->taobao->AlibabaAliqinFcSmsNumSendRequest;<br>
+$req->setExtend("123456");<br>
+$req->setSmsType("normal");<br>
+$req->setSmsFreeSignName("久居你心");<br>
+$req->setSmsParam("{\"name\":\"1234\"}");<br>
+$req->setRecNum("18888888888");<br>
+$req->setSmsTemplateCode("SMS_909254503");<br>
+$resp = $c->execute($req);<br>
   

@@ -1,11 +1,12 @@
 # 阿里大鱼使用说明
 在component中加载如下配置：
 -------  
-  'taobao' => [<br>
-        	'class'  =>	'Alidayu\Top',<br>
-        	'appkey' =>	'655565216',<br>
-        	'secret' =>	'4b8981dfve4114c9d79387aa9'<br>
-        ],<br>
+'taobao' => [<br>
+>>>>'class'  =>	'Alidayu\Top',<br>
+>>>>'appkey' =>	'655565216',<br>
+>>>'secret' =>	'4b8981dfve4114c9d79387aa9'<br>
+],
+-------
 阿里大鱼短信调用示例
 -------  
 $c = Yii::$app->taobao->TopClient;

@@ -39,7 +39,7 @@ class Top extends Component
 		//帮助用户初始化相关的参数
 		if(strtolower($name) == strtolower('TopClient')){
 			static::$classMap[$name]->appkey = $this->appkey;
-			static::$classMap[$name]->secret = $this->secret;
+			static::$classMap[$name]->secretKey = $this->secret;
 		}
 
 		//返回对象的实例

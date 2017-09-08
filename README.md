@@ -1,17 +1,43 @@
-# 阿里大鱼使用说明
-在component中加载如下配置：
--------  
-```php
-'components' => [
-    'taobao' => [
-        'class'  =>	'Alidayu\Top',
-        'appkey' =>	'655565216',
-        'secret' =>	'4b8981dfve4114c9d79387aa9'
-    ],
-]
+Installation
+------------
+
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+
+Either run
+
 ```
+php composer.phar require --prefer-dist makcent/yii2-alidayu
+```
+
+or add
+
+```json
+"makcent/yii2-alidayu": "~1.0.0"
+```
+
+to the require section of your composer.json.
+
+
+Configuration
+-------------
+
+To use this extension, you have to configure the Connection class in your application configuration:
+
+```php
+return [
+    //....
+    'components' => [
+        'taobao' => [
+            'class'  =>	'Alidayu\Top',
+            'appkey' =>	'655565216',
+            'secret' =>	'4b8981dfve4114c9d79387aa9'
+        ],
+    ]
+];
+```
+
 -------
-阿里大鱼短信调用示例
+Ali big fish SMS call example
 -------  
 ```php
 $c = Yii::$app->taobao->TopClient;
